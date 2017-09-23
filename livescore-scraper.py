@@ -1,5 +1,5 @@
-import requests, os, notify
 from bs4 import BeautifulSoup
+import requests, os, notify
 
 def scrapeData() : 
     print("Fetching source ...")
@@ -36,11 +36,5 @@ def scrapeData() :
 	    # we print it out
     return scoresDict
 
-# def run() :
-#     scrapeData()
-#     if change in score :
-#         notify.showNotif("Golazo!!", "{} goal!!}")
-#         time.sleep(1)
-#     time.sleep(1)
-#     run()
+scoreboard = scrapeData()
 
