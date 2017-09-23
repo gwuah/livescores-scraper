@@ -1,6 +1,8 @@
 from bs4 import BeautifulSoup
 import requests, os, notify
 
+__author__ = "Griffith"
+
 def scrapeData() : 
     print("Fetching source ...")
     try :
